@@ -16,3 +16,4 @@
 <h3 align="left"> I use the font-awesome links for icons.</h3>
 <h3 align="left">I created this website by using the tool Visual studio Code.</h3>
 <h3 align="left">And also I use many of the images and video for attraction.</h3>
+<h3 align="left">Google map also used in this website template.</h3>
