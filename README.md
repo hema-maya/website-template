@@ -5,7 +5,7 @@
 
 - 📫 How to reach me **hemamaya0609@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me: From my email-id</h3>
 <p align="left">
 </p>
 
