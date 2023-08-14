@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width = devicewidth , initial-scale =1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/8dcb7f4a8f.js"></script>
+    <body>
+        <div class="header">
+            <p style="font-size: 50px;color: grey;font-family: helvetica;margin-left: 100px;font-weight: bold;"><span style="color: rgb(19, 98, 233);font-weight: bold;">OCEAN</span>  vibes</p>
+        </div>
+        <div class="para">
+            <p>simple and effective design</p>
+        </div>
+        <video width="100%" height="auto" controls autoplay loop muted>
+            <source src="C:/Users/lenovo/Downloads/video.mp4">
+        </video>
+        <br><br><br>
+        <div class="box-list">
+            <div class="row">
+                <div class="box">
+                    <h2 style="text-align: center;" onclick="myopen()">Introduction</h2><br>
+                    <a href="#"><i class="fa-solid fa-water"></i></a>
+                </div>
+                <div class="box" style="margin-left: 5%;">
+                    <h2 onclick="openpage()">Gallery</h2><br>
+                    <a href="#"><i class="fa-solid fa-photo-film"></i></a>
+                </div>
+                <div class="box" style="margin-left: 5%;">
+                    <h2 onclick="opentest()">Testimonials</h2><br>
+                    <a href="#"><i class="fa-regular fa-face-smile"></i></a>
+                </div>
+                <div class="box" style="margin-left: 5%;">
+                    <h2 onclick="openabout()">About</h2><br>
+                    <a href="#"><i class="fa-solid fa-droplet"></i></a>
+                </div>
+                <div class="box" style="margin-left: 5%;">
+                    <h2 onclick="opencontact()">Contact</h2><br>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+        <section id="myOverlay">
+            <button class="btn" onclick="myclose()">&times;</button>
+            <div class="overlay">
+                <div class="row">
+                    <div class="column-30">
+                        <img src="C:/Users/lenovo/Downloads/intro.jpg">
+                    </div>
+                    <div class="column-60">
+                        <h1 style="color: rgb(10, 138, 243);">Introducing Ocean Vibes</h1>
+                        <p style="font-size: 18px;color: grey;word-spacing: 20px;">This CSS template is 100% free provided by TemplateMo website. You can use this template for any purpose. You can apply this as a CMS theme or a custom website builder template.</p>
+                        <p style="font-size: 18px;color: grey;word-spacing: 20px;">You can support our website by contributing a little via PayPal or spreading a word about TemplateMo to your friends. If you have any question, feel free to send us a message.</p>
+                        <p style="font-size: 18px;color: grey;word-spacing: 20px;">Credit goes to Pexels for the video banner and images used in this template. Some images are taken from Unsplash. Both Pexels and Unsplash are great websites for free photos.</p>
+                    </div>
+                    <div class="column-90" style="margin-top: -40%;margin-left: 65%;">
+                        <p style="font-size: 18px;color: grey;word-spacing: 20px;">You are not allowed to re-distribute this template as a downloadable ZIP file on any template collection website.</p>
+                        <p style="font-size: 18px;color: grey;word-spacing: 20px;">Top right corner is a return home with an icon that will close this pop-up page.</p>
+                        <p style="font-size: 18px;color: grey;word-spacing: 20px;">Next Page will bring you to the gallery page directly without going back to main menu.</p>
+                        <br><br>
+                        <button class="button" onclick="next()">Next Page</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nextPage" class="gallery">
+            <button class="btn" onclick="myhide()">&times;</button>
+            <div class="col-60">
+                <div class="image active-image" id="one">
+                    <img src="C:/Users/lenovo/Downloads/girl.jpg">
+                    <img src="C:/Users/lenovo/Downloads/flower.jpg">
+                    <img src="C:/Users/lenovo/Downloads/dog.jpg">
+                    <img src="C:/Users/lenovo/Downloads/steps.jpg">
+                    <img src="C:/Users/lenovo/Downloads/style.jpg">
+                    <img src="C:/Users/lenovo/Downloads/leaf.jpg">
+                    <img src="C:/Users/lenovo/Downloads/rabbit.jpg">
+                    <img src="C:/Users/lenovo/Downloads/building.jpg">
+                </div>
+                <div class="image" id="two">
+                    <img src="C:/Users/lenovo/Downloads/pose.jpg">
+                    <img src="C:/Users/lenovo/Downloads/bear.jpg">
+                    <img src="C:/Users/lenovo/Downloads/court.jpg">
+                    <img src="C:/Users/lenovo/Downloads/lady.jpg">
+                    <img src="C:/Users/lenovo/Downloads/parrot.jpg">
+                    <img src="C:/Users/lenovo/Downloads/china.jpg">
+                    <img src="C:/Users/lenovo/Downloads/hot.jpg">
+                    <img src="C:/Users/lenovo/Downloads/cat.jpg">
+                
+                </div>
+                <div class="image" id="three">
+                    <img src="C:/Users/lenovo/Downloads/colors.jpg">
+                    <img src="C:/Users/lenovo/Downloads/smile.jpg">
+                    <img src="C:/Users/lenovo/Downloads/wolf.jpg">
+                    <img src="C:/Users/lenovo/Downloads/mirror.jpg">
+                    <img src="C:/Users/lenovo/Downloads/angry.jpg">
+                    <img src="C:/Users/lenovo/Downloads/frog.jpg">
+                    <img src="C:/Users/lenovo/Downloads/nothing.jpg">
+                    <img src="C:/Users/lenovo/Downloads/super.jpg">
+                </div>
+                <div class="image" id="four">
+                    <img src="C:/Users/lenovo/Downloads/rose.jpg">
+                    <img src="C:/Users/lenovo/Downloads/tree.jpg">
+                    <img src="C:/Users/lenovo/Downloads/paraglide.jpg">
+                    <img src="C:/Users/lenovo/Downloads/bamboo.jpg">
+                    <img src="C:/Users/lenovo/Downloads/sea.jpg">
+                    <img src="C:/Users/lenovo/Downloads/falls.jpg">
+                    <img src="C:/Users/lenovo/Downloads/birds.jpg">
+                    <img src="C:/Users/lenovo/Downloads/row.jpg">
+                </div>
+                <div class="image" id="All">
+                    <img src="C:/Users/lenovo/Downloads/girl.jpg">
+                    <img src="C:/Users/lenovo/Downloads/flower.jpg">
+                    <img src="C:/Users/lenovo/Downloads/dog.jpg">
+                    <img src="C:/Users/lenovo/Downloads/steps.jpg">
+                    <img src="C:/Users/lenovo/Downloads/style.jpg">
+                    <img src="C:/Users/lenovo/Downloads/leaf.jpg">
+                    <img src="C:/Users/lenovo/Downloads/rabbit.jpg">
+                    <img src="C:/Users/lenovo/Downloads/building.jpg">
+                </div>
+                <div class="image" id="Portraits">
+                    <img src="C:/Users/lenovo/Downloads/girl.jpg">
+                    <img src="C:/Users/lenovo/Downloads/pose.jpg">
+                    <img src="C:/Users/lenovo/Downloads/style.jpg">
+                    <img src="C:/Users/lenovo/Downloads/lady.jpg">
+                    <img src="C:/Users/lenovo/Downloads/hot.jpg">
+                    <img src="C:/Users/lenovo/Downloads/smile.jpg">
+                    <img src="C:/Users/lenovo/Downloads/angry.jpg">
+                    <img src="C:/Users/lenovo/Downloads/super.jpg">
+                </div>
+                <div class="image" id="Nature">
+                    <img src="C:/Users/lenovo/Downloads/flower.jpg">
+                    <img src="C:/Users/lenovo/Downloads/leaf.jpg">
+                    <img src="C:/Users/lenovo/Downloads/rose.jpg">
+                    <img src="C:/Users/lenovo/Downloads/tree.jpg">
+                    <img src="C:/Users/lenovo/Downloads/paraglide.jpg">
+                    <img src="C:/Users/lenovo/Downloads/bamboo.jpg">
+                    <img src="C:/Users/lenovo/Downloads/sea.jpg">
+                    <img src="C:/Users/lenovo/Downloads/falls.jpg">
+                </div>
+                <div class="image" id="Animals">
+                    <img src="C:/Users/lenovo/Downloads/dog.jpg">
+                    <img src="C:/Users/lenovo/Downloads/rabbit.jpg">
+                    <img src="C:/Users/lenovo/Downloads/bear.jpg">
+                    <img src="C:/Users/lenovo/Downloads/parrot.jpg">
+                    <img src="C:/Users/lenovo/Downloads/cat.jpg">
+                    <img src="C:/Users/lenovo/Downloads/wolf.jpg">
+                    <img src="C:/Users/lenovo/Downloads/frog.jpg">
+                    <img src="C:/Users/lenovo/Downloads/birds.jpg">
+                </div>
+                <div class="image" id="Buildings">
+                    <img src="C:/Users/lenovo/Downloads/steps.jpg">
+                    <img src="C:/Users/lenovo/Downloads/building.jpg">
+                    <img src="C:/Users/lenovo/Downloads/court.jpg">
+                    <img src="C:/Users/lenovo/Downloads/china.jpg">
+                    <img src="C:/Users/lenovo/Downloads/colors.jpg">
+                    <img src="C:/Users/lenovo/Downloads/mirror.jpg">
+                    <img src="C:/Users/lenovo/Downloads/nothing.jpg">
+                    <img src="C:/Users/lenovo/Downloads/row.jpg">
+                </div>
+                <div class="container">
+                    <button class="but active" onclick="opentab('one')">1</button>
+                    <button class="but" onclick="opentab('two')">2</button>
+                    <button class="but" onclick="opentab('three')">3</button>
+                    <button class="but" onclick="opentab('four')">4</button>
+                </div>
+            </div>
+            <div class="col-30">
+                <h2 style="color: rgb(21, 123, 240);">Gallery</h2>
+                <ul>
+                    <li class="list" onclick="openphoto('All')"><a href="#"><i class="fa-solid fa-layer-group"></i></a>All</li><br>
+                    <li class="list" onclick="openphoto('Portraits')"><a href="#"><i class="fa-solid fa-image-portrait"></i></a> Portraits</li><br>
+                    <li class="list" onclick="openphoto('Nature')"><a href="#"><i class="fa-solid fa-leaf"></i></a> Nature</li><br>
+                    <li class="list" onclick="openphoto('Animals')"><a href="#"><i class="fa-solid fa-paw"></i></a> Animals</li><br>
+                    <li class="list" onclick="openphoto('Buildings')"><a href="#"><i class="fa-regular fa-building"></i></a> Buildings</li>
+                </ul>
+            </div>
+        </section>
+        <section id="page">
+            <div class="test">
+                <button class="btn" onclick="mydied()" style="margin-right: 10px;">&times;</button>
+                <div class="column-30">
+                    <p style="color: grey;font-weight: bold;float: left;margin-left: 20px;font-size: 35px;font-family: helvetica;">Testimonials</p>
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;margin-left: 10px;">OCEAN vibes is free website template from TemplateMo website. You are allowed to use it for commercial purpose. You can convert this template as a CMS theme or a custom website builder template.</p>
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;margin-left: 10px;">You may support us by telling your friends about our TemplateMo site. Feel free to contact us if you have anything to ask.</p>
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;margin-left: 10px;">You can make a little contribution via PayPal or saying about TemplateMo to your friends. Duis egestas lorem eu nisi finibus, sit amet elementum lacus pretium.</p>
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;margin-left: 10px;">In tempor felis vitae nulla feugiat aliquam. Vivamus vitae congue mi. Sed maximus velit vestibulum nisl condimentum hendrerit.</p>
+                </div>
+                <div class="column-60">
+                    <img src="C:/Users/lenovo/Downloads/testimonial.jpg" class="im">
+                    <p style="color: grey;font-size: 18px;word-spacing: 10px;margin-left: 80px;">"Suspendisse eu mollis diam, at ullamcorper diam. Ut sit amet arcu metus. Nullam mattis eros eget." by George, Chief Editor</p>
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;margin-left: 80px;">Quisque et lorem accumsan, sollicitudin dolor vel, facilisis eros. Donec aliquet felis in mollis egestas." by Mary, CEO of Web</p>
+                    <button class="button" style="margin-left: 35%;" onclick="opencontact()">Contact Us</button>
+                </div>
+                <div class="column-90">
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;margin-left: 30px;">Duis sapien diam, eleifend eget vehicula sed, convallis sit amet elit. Aenean condimentum vulputate porta.</p>
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;margin-left: 30px;">Mauris accumsan erat ante, id sagittis felis gravida vitae. Sed iaculis tincidunt neque, a molestie magna vehicula at.</p>
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;margin-left: 30px;">Phasellus ornare magna nec nulla pharetra, nec tristique elit lobortis.</p>
+                    <img src="C:/Users/lenovo/Downloads/jump.jpg">
+                </div>
+            </div>
+        </section>
+        <section id="aboutPage">
+            <div class="test">
+                <button class="btn" onclick="closeabout()" style="margin-left: 70%;margin-top: -40px;"><span style="color: grey;font-size: 18px;">return home</span>&times;</button>
+                <p style="color: rgb(21, 123, 240);font-family: helvetica;font-weight: bold;margin-top: 60px;font-size: 40px;">About Ocean Vibes</h1>
+                <div class="column-50">
+                    <img src="C:/Users/lenovo/Downloads/about.jpg">
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;">Suspendisse sit amet pellentesque nunc. Vivamus fringilla tellus finibus lacus blandit, siet amet aliquet augue sagittis. Duis nec auctor felis, nec ornare ex. In non ante ligula.</p>
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;">Curabitur non augue dignissim est pulvibar lobortis. Nunc vulputate, mi vel cursus mollis, justo mauris rutrum dui, id egestas ante ligula id nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                </div>
+                <div class="column-100">
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;">You are NOT allowed to re-distribute this template ZIP file on any website that collects and reposts free templates from many different websites.</p>
+                    <br>
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;">Pellentesque vitae ipsum vel risus molestie cursus nec quis lectus. Duis egestas lorem eu nisi finibus, sit amet elementum lacus pretium. In tempor felis vitae nulla feugiat aliquam.</p><br>
+                    <p style="color: grey;font-size: 18px;word-spacing: 20px;">If you need a working HTML contact form, please visit our contact page.</p>
+                    <button class="button" onclick="opencontact()">Contact Us</button>
+
+                </div>
+            </div>
+        </section>
+        <section id="openContact">
+            <div class="test">
+                <button class="btn" onclick="closecontact()">&times;</button><br><br>
+                <p style="color: rgb(21, 123, 240);font-size: 30px;float: left;font-family: helvetica;font-weight: bold;">Contact Us</p>
+                <div class="column-30">
+                    <form action="https://formsubmit.co/your@email.com" method="POST">
+                        <p>
+                            <label>
+                                <input type="text" name="your name" placeholder="Full Name">
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="text" name="email" placeholder="Email">
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="text" name="subject" placeholder="Subject">
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <textarea cols="39" rows="10" placeholder="Message"></textarea>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <button class="button">Send it</button>
+                            </label>
+                        </p>
+                    </form>
+                </div>
+                <div class="co-60">
+                    <p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.108128234788!2d77.95768259318814!3d9.574984207507443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b012cedb5f1de83%3A0x6135c16a3a24b6d9!2sKabilar%20St%2C%20Muthuraman%20Pati%2C%20Virudhunagar%2C%20Tamil%20Nadu%20626001!5e0!3m2!1sen!2sin!4v1691998127546!5m2!1sen!2sin" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
